@@ -2,9 +2,20 @@ import React, {useState, createRef} from "react";
 import "./ExperienceCard.scss";
 import ColorThief from "colorthief";
 
-export default function ExperienceCard({cardInfo, isDark}) {
+export default function ExperienceCard({cardInfo, isDark}) { 
   const [colorArrays, setColorArrays] = useState([]);
   const imgRef = createRef();
+  // function openUrlInNewTab(url, name) {
+  //   if (!url) {
+  //     console.log(`URL for ${name} not found`);
+  //     return;
+  //   }
+  //   var win = window.open(url, "_blank");
+  //   if(win){
+  //     window.location.href = url
+  //     win.focus();
+  //   }
+  // }
 
   function getColorArrays() {
     const colorThief = new ColorThief();
@@ -43,7 +54,7 @@ export default function ExperienceCard({cardInfo, isDark}) {
           ref={imgRef}
           className="experience-roundedimg"
           src={cardInfo.companylogo}
-          alt={cardInfo.company}
+          alt={cardInfo.company} 
           onLoad={() => getColorArrays()}
         />
       </div>
@@ -77,7 +88,18 @@ export default function ExperienceCard({cardInfo, isDark}) {
         </p>
         <ul>
           <GetDescBullets descBullets={cardInfo.descBullets} isDark={isDark} />
-        </ul>
+        </ul> 
+        {/* <div className="project-card-footer">
+        <span
+             className={
+                  isDark ? "dark-mode project-tag" : "project-tag"
+                   }>
+                 {
+            <a style={{display: "table-cell"}} href = "https://www.antino.com/" target = "_blank" 
+                rel = "noopener noreferrer">text</a>}
+                </span>                
+        </div> */}
+        
       </div>
     </div>
   );
