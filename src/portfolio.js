@@ -23,10 +23,10 @@ const greeting = {
   username: "Dinesh Kumar",
   title: "Hi all, I'm Dinesh",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Mobile applications with Flutter/ Android Native/ Jetpack Compose / Nodejs / Expressjs / MongoDB and some other cool libraries and frameworks."
+    "A dedicated Full Stack Software Developer with a strong background in developing mobile applications using Flutter, Android Native, Jetpack Compose, Go, and MongoDB. Experienced in leveraging modern libraries and frameworks to build efficient, scalable, and high-quality solutions. Driven by a passion for innovation and continuous learning, with a focus on delivering seamless user experiences and robust, maintainable code."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1kSGSnsgi9nChSGgFsAZaR_9U41-2bSQZ/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/uc?export=download&id=1er9OtG0YXF0BqmUkz_XhoZsFQngss_Em", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -35,13 +35,9 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/dineshkumar-770",
   linkedin: "https://www.linkedin.com/in/thisisdineshkumar/",
-  gmail: "kumardinesh0699@gmail.com",
-  // gitlab: "https://gitlab.com/saadpasta",
-  // facebook: "https://www.facebook.com/saad.pasta7",
-  // medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/13992120/dinesh-kumar",
-  // Instagram, Twitter and Kaggle are also supported in the links!
-  // To customize icons and social links, tweak src/components/SocialMedia
+  gmail: "kumardinesh0699@gmail.com", 
+  medium: "https://medium.com/@kumardinesh0699",
+  stackoverflow: "https://stackoverflow.com/users/13992120/dinesh-kumar", 
   display: true // Set true to display this section, defaults to false
 };
 
@@ -52,17 +48,17 @@ const skillsSection = {
   subTitle: "CRAZY FULL STACK MOBILE DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
-      "⚡ Develop highly interactive and responsive mobile and web applications using Flutter"
+      "⚡ Develop highly interactive and responsive mobile and web applications using Flutter, ensuring seamless user experiences across platforms."
     ),
-    emoji("⚡ Implement cross-platform Progressive Web Applications (PWA) with Flutter"),
+    emoji("⚡ Build cross-platform mobile solutions with Flutter, focusing on performance and scalability."),
     emoji(
-      "⚡ Seamless integration of backend services such as Firebase, AWS, and DigitalOcean"
-    ),
-    emoji(
-      "⚡ Expertise in building efficient APIs and managing cloud infrastructure"
+      "⚡ Integrate backend services such as Firebase, AWS, and DigitalOcean, providing secure and efficient mobile app solutions."
     ),
     emoji(
-      "⚡ Ensure optimal performance and user experience across all platforms"
+      "⚡ Expertise in building robust APIs and managing cloud infrastructure, with growing proficiency in Go for backend development."
+    ),
+    emoji(
+      "⚡ Prioritize optimal performance and user experience, delivering high-quality, reliable mobile applications."
     ),
   ],
 
@@ -75,17 +71,17 @@ https://fontawesome.com/icons?d=gallery */
       imagePath: "https://img.icons8.com/?size=100&id=pCvIfmctRaY8&format=png&color=000000"
     },
     {
+      skillName: "Dart", 
+      imagePath: "https://img.icons8.com/?size=100&id=7AFcZ2zirX6Y&format=png&color=000000"
+    }, 
+    {
       skillName: "Android Native",
       imagePath: "https://img.icons8.com/?size=100&id=17836&format=png&color=000000"
     },
     {
-      skillName: "Node JS",
-      imagePath: "https://img.icons8.com/?size=100&id=hsPbhkOH4FMe&format=png&color=000000"
-    },
-    {
-      skillName: "Express JS",
-      imagePath: "https://img.icons8.com/?size=100&id=WNoJgbzDr3i2&format=png&color=000000"
-    },
+      skillName: "Go",
+      imagePath: "https://img.icons8.com/?size=100&id=7ej5ASIwdQXG&format=png&color=000000"
+    }, 
     {
       skillName: "Mongo Database",
       imagePath: "https://img.icons8.com/?size=100&id=bosfpvRzNOG8&format=png&color=000000"
@@ -103,17 +99,10 @@ https://fontawesome.com/icons?d=gallery */
        imagePath: "https://img.icons8.com/?size=100&id=cdYUlRaag9G9&format=png&color=000000"
     },
     {
-      skillName: "Dart", 
-      imagePath: "https://img.icons8.com/?size=100&id=7AFcZ2zirX6Y&format=png&color=000000"
+      skillName: "Git",
+       imagePath: "https://img.icons8.com/?size=100&id=20906&format=png&color=000000"
     },
-    {
-      skillName: "Kotlin", 
-      imagePath: "https://img.icons8.com/?size=100&id=ZoxjA0jZDdFZ&format=png&color=000000"
-    },
-    {
-      skillName: "Javascript", 
-      imagePath: "https://img.icons8.com/?size=100&id=PXTY4q2Sq2lG&format=png&color=000000"
-    },
+    
   ],
   display: true // Set false to hide this section, defaults to true, 
 };
@@ -143,17 +132,30 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend", //Insert stack or technology you have experience in
+      Stack: "Flutter", //Insert stack or technology you have experience in
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
+      Stack: "Golang",
+      progressPercentage: "60%"
+    },
+    {
+      Stack: "AWS Cloud Infrastructure",
       progressPercentage: "70%"
     },
     {
-      Stack: "Programming",
+      Stack: "Database",
       progressPercentage: "60%"
-    }
+    },
+    {
+      Stack: "Deployment and App Release",
+      progressPercentage: "80%"
+    },
+    {
+      Stack: "Version Control",
+      progressPercentage: "80%"
+    },
+
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
@@ -170,9 +172,10 @@ const workExperiences = {
       date: "September 2022 – May 2023",
       desc: "Antino Labs provides IT service and consultancy to their clients. In Antino I worked on many different projects including the big the gaint startups like Rapido, Physics Wallah, Dunzo etc.",
       descBullets: [
-        "Led development on over 3 projects, building innovative solutions from scratch and ensuring alignment with project requirements.",
-        "Conducted thorough bug fixing and troubleshooting activities to uphold product quality and reliability",
-        "Actively contributed in team collaboration sessions, offering insights and ideas to drive project innovation and address technical challenges"
+        "Developed mobile applications for clients, delivering high-quality, tailored solutions aligned with specific client needs and expectations.",
+        "Led the development of 3+ projects, creating innovative solutions from scratch and ensuring adherence to project requirements",
+        "Improved product quality and reliability by executing comprehensive bug fixes, troubleshooting, and performance enhancements.",
+        "Collaborated with cross-functional teams to solve technical challenges and drive innovation, ensuring software success through rigorous testing and debugging."
       ]
     },
     {
@@ -182,9 +185,10 @@ const workExperiences = {
       date: "June 2023 – Present",
       desc: "Haeywa is petty cash and business payments & management app to provide payments and reconciliation in a single workflow over UPI, simplifying the tracking of small expenses effortlessly for businesses.",
       descBullets: [
-        "Maintain and enhance the HAEYWA application using Flutter to ensure seamless functionality and user experience.",
-        "Lead bug fixing initiatives, ensuring reliability and performance standards.",
-        "Collaborate with the team in regular discussions and brainstorming sessions to drive innovation and address technical challenges"
+        "Responsible for maintaining and improving “HAEYWA Petty Cash App”, a petty cash management application, using Flutter.",
+        "Enhanced app functionality, user experience, and performance by implementing new features and optimizing existing code.",
+        "Led bug-fixing efforts, improving overall app reliability and reducing issues affecting end users.",
+        "Collaborated with cross-functional teams to ensure smooth app operation and timely feature releases."
       ]
     }, 
   ]
@@ -201,32 +205,37 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "My Projects",
+  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH ALONG WITH SOME PERSONALS",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "https://www.google.com/"
-        }
-        //  you can add extra buttons here.
-      ]
+      image: require("./assets/images/haeywa_logo.jpeg"),
+      projectName: "Haeywa Petty Cash App",
+      projectDesc: "I implemented prepaid card functionality in the HAEYWA app, incorporating balance management, card usage tracking, and both Min and Full KYC for two providers: NSDL (with native Android/iOS integration) and LivQuik (featuring video KYC via WebSockets). To improve app efficiency, I enhanced performance by integrating Riverpod for state management and adopting the MVVM architecture. Additionally, I developed vendor payout management and integrated bill payment solutions using PayU and BBPS, along with a 4-level approval matrix for transaction verification. I also integrated advanced features like NFC tap-and-pay, enhancing user experience and expanding the app’s capabilities.",
+       
     },
     {
-      image: require("./assets/images/haeywa_logo.jpeg"),
-      projectName: "Haeywa",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://nextu.se/"
-        }
-      ]
-    }
+      image: require("./assets/images/chefkart.webp"),
+      projectName: "Chefkart Partner App",
+      projectDesc: "I enhanced the application’s functionality by developing comprehensive background location tracking, ensuring accurate user positioning for improved engagement. I integrated Google Maps APIs to deliver precise location services, enriching the user experience with interactive mapping features. Additionally, I designed and implemented an interactive chef tutorial module with video streaming and a question-and-answer system, facilitating effective learning and participation. I also integrated secure payment gateways like Razorpay and PayU, while implementing localization in three languages to support a diverse user base and expand market reach.",
+    },
+    {
+      image: require("./assets/images/truepower.png"),
+      projectName: "TruePower - EV Charging",
+      projectDesc: "I developed the TruePower app, a user-friendly solution designed to help users locate nearby EV charging stations and book charging sessions effortlessly. The app features a mobile number authentication flow and integrates Google Maps API for accurate location tracking. I implemented a seamless session booking system and a referral program to enhance user engagement. Additionally, I incorporated Firebase Cloud Messaging (FCM) for real-time notifications and performed extensive bug fixes to ensure optimal app performance and reliability.",
+    },
+    {
+      image: require("./assets/images/gita_icon.png"),
+      projectName: "Bhagavad Gita App",
+      projectDesc: "I developed a comprehensive mobile application centered around the Bhagavad Gita, where the backend is implemented in Go. The raw data was efficiently loaded into MongoDB, allowing for seamless data retrieval and management. I designed and built robust APIs using Go, which were then deployed on AWS EC2 to ensure scalability and reliability. The front end was crafted using Flutter, delivering a smooth and interactive user experience. The app features include verse search functionality, bookmarking, and thematic categorization, enhancing user engagement and accessibility to the sacred text. This project showcases my expertise in full-stack development, cloud deployment, and my commitment to creating meaningful applications.",
+       
+    },
+    {
+      image: require("./assets/images/paperly_icon.png"),
+      projectName: "Paperly Wallpapers App",
+      projectDesc: "I developed a wallpaper application with a Go backend and Flutter frontend. Only administrators can upload wallpapers to AWS S3, and I configured the AWS SDK for smooth integration with EC2 and local environments. The app generates presigned URLs for uploaded images, which are accessible on the frontend. The home page displays all available images from MongoDB, while a categories screen allows users to browse different wallpaper categories. Additionally, I integrated Firebase Cloud Messaging (FCM) for notifications, ensuring users stay updated on new wallpapers. The application will be deployed soon.",
+       
+    },
   ],
   display: true // Set false to hide this section, defaults to true
 };
