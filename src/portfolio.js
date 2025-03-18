@@ -83,8 +83,8 @@ https://fontawesome.com/icons?d=gallery */
       imagePath: "https://img.icons8.com/?size=100&id=7ej5ASIwdQXG&format=png&color=000000"
     }, 
     {
-      skillName: "Mongo Database",
-      imagePath: "https://img.icons8.com/?size=100&id=bosfpvRzNOG8&format=png&color=000000"
+      skillName: "MySQL Database",
+      imagePath: "https://img.icons8.com/?size=100&id=rgPSE6nAB766&format=png&color=000000"
     },
     {
       skillName: "AWS",
@@ -93,11 +93,7 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "Firebase",
       imagePath: "https://img.icons8.com/?size=100&id=ROMfFZ1tMhpk&format=png&color=000000"
-    },
-    {
-      skillName: "Docker",
-       imagePath: "https://img.icons8.com/?size=100&id=cdYUlRaag9G9&format=png&color=000000"
-    },
+    }, 
     {
       skillName: "Git",
        imagePath: "https://img.icons8.com/?size=100&id=20906&format=png&color=000000"
