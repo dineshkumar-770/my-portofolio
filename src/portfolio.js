@@ -23,10 +23,10 @@ const greeting = {
   username: "Dinesh Kumar",
   title: "Hi all, I'm Dinesh",
   subTitle: emoji(
-    "A dedicated Full Stack Software Developer with a strong background in developing mobile applications using Flutter, Android Native, Jetpack Compose, Go, and MongoDB. Experienced in leveraging modern libraries and frameworks to build efficient, scalable, and high-quality solutions. Driven by a passion for innovation and continuous learning, with a focus on delivering seamless user experiences and robust, maintainable code."
+    "A highly skilled Full Stack Software Developer with 2 years and 6 months of experience in building scalable and high-performance applications. Proficient in Flutter, Android Native, Jetpack Compose, Go, and MySQL, with a strong focus on developing seamless, responsive, and efficient solutions. Experienced in integrating backend services, optimizing performance, and ensuring maintainable code architecture. Passionate about innovation and continuous learning, dedicated to delivering robust and user-centric applications."
   ),
-  resumeLink:
-    "https://drive.google.com/uc?export=download&id=1er9OtG0YXF0BqmUkz_XhoZsFQngss_Em", // Set to empty to hide the button
+  resumeLink: "",
+    // "https://drive.google.com/uc?export=download&id=1er9OtG0YXF0BqmUkz_XhoZsFQngss_Em", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -48,17 +48,17 @@ const skillsSection = {
   subTitle: "CRAZY FULL STACK MOBILE DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
-      "⚡ Develop highly interactive and responsive mobile and web applications using Flutter, ensuring seamless user experiences across platforms."
+      "⚡ Design and develop high-performance, responsive mobile and web applications using Flutter, ensuring seamless cross-platform user experiences."
     ),
-    emoji("⚡ Build cross-platform mobile solutions with Flutter, focusing on performance and scalability."),
+    emoji("⚡ Build scalable, cross-platform mobile solutions with Flutter, optimizing for efficiency, speed, and maintainability."),
     emoji(
-      "⚡ Integrate backend services such as Firebase, AWS, and DigitalOcean, providing secure and efficient mobile app solutions."
-    ),
-    emoji(
-      "⚡ Expertise in building robust APIs and managing cloud infrastructure, with growing proficiency in Go for backend development."
+      "⚡ Integrate powerful backend services like Firebase, AWS, DigitalOcean, and MySQL, ensuring secure, efficient, and data-driven applications."
     ),
     emoji(
-      "⚡ Prioritize optimal performance and user experience, delivering high-quality, reliable mobile applications."
+      "⚡ Develop robust APIs, manage cloud infrastructure, and enhance backend performance with expertise in Go and MySQL."
+    ),
+    emoji(
+      "⚡ Prioritize performance optimization and user experience, delivering high-quality, reliable, and scalable mobile applications."
     ),
   ],
 
@@ -79,8 +79,12 @@ https://fontawesome.com/icons?d=gallery */
       imagePath: "https://img.icons8.com/?size=100&id=17836&format=png&color=000000"
     },
     {
+      skillName: "Kotlin",
+      imagePath: "https://img.icons8.com/?size=100&id=ZoxjA0jZDdFZ&format=png&color=000000"
+    },
+    {
       skillName: "Go",
-      imagePath: "https://img.icons8.com/?size=100&id=7ej5ASIwdQXG&format=png&color=000000"
+      imagePath: "https://img.icons8.com/?size=100&id=44442&format=png&color=000000"
     }, 
     {
       skillName: "MySQL Database",
@@ -88,7 +92,7 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "AWS",
-      imagePath: "https://img.icons8.com/?size=100&id=33039&format=png&color=000000"
+      imagePath: "https://img.icons8.com/?size=100&id=wU62u24brJ44&format=png&color=000000"
     },
     {
       skillName: "Firebase",
@@ -129,27 +133,27 @@ const techStack = {
   experience: [
     {
       Stack: "Flutter", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      progressPercentage: "100%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Golang",
-      progressPercentage: "60%"
+      progressPercentage: "100%"
     },
     {
       Stack: "AWS Cloud Infrastructure",
-      progressPercentage: "70%"
+      progressPercentage: "100%"
     },
     {
       Stack: "Database",
-      progressPercentage: "60%"
+      progressPercentage: "100%"
     },
     {
       Stack: "Deployment and App Release",
-      progressPercentage: "80%"
+      progressPercentage: "100%"
     },
     {
       Stack: "Version Control",
-      progressPercentage: "80%"
+      progressPercentage: "100%"
     },
 
   ],
