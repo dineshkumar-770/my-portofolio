@@ -26,6 +26,7 @@ const greeting = {
     "A highly skilled Full Stack Software Developer with 2 years and 6 months of experience in building scalable and high-performance applications. Proficient in Flutter, Android Native, Jetpack Compose, Go, and MySQL, with a strong focus on developing seamless, responsive, and efficient solutions. Experienced in integrating backend services, optimizing performance, and ensuring maintainable code architecture. Passionate about innovation and continuous learning, dedicated to delivering robust and user-centric applications."
   ),
   resumeLink: "",
+  //https://docs.google.com/document/d/110l1R4ysuaXHX9t9T73DhYAFIMX0iPLca5dYDOK5SmU/edit?usp=sharing
     // "https://drive.google.com/uc?export=download&id=1er9OtG0YXF0BqmUkz_XhoZsFQngss_Em", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
@@ -211,18 +212,29 @@ const bigProjects = {
     {
       image: require("./assets/images/haeywa_logo.jpeg"),
       projectName: "Haeywa Petty Cash App",
-      projectDesc: "I implemented prepaid card functionality in the HAEYWA app, incorporating balance management, card usage tracking, and both Min and Full KYC for two providers: NSDL (with native Android/iOS integration) and LivQuik (featuring video KYC via WebSockets). To improve app efficiency, I enhanced performance by integrating Riverpod for state management and adopting the MVVM architecture. Additionally, I developed vendor payout management and integrated bill payment solutions using PayU and BBPS, along with a 4-level approval matrix for transaction verification. I also integrated advanced features like NFC tap-and-pay, enhancing user experience and expanding the app’s capabilities.",
+      projectDesc: "1. I implemented prepaid card functionality in the HAEYWA app, incorporating \nbalance management, card usage tracking, and both Min and Full KYC for two providers: NSDL (with native Android/iOS integration) and LivQuik (featuring video KYC via WebSockets). To improve app efficiency, I enhanced performance by integrating Riverpod for state management and adopting the MVVM architecture. Additionally, I developed vendor payout management and integrated bill payment solutions using PayU and BBPS, along with a 4-level approval matrix for transaction verification. I also integrated advanced features like NFC tap-and-pay, enhancing user experience and expanding the app’s capabilities.",
        
     },
     {
       image: require("./assets/images/chefkart.webp"),
       projectName: "Chefkart Partner App",
+      isHireable: true,
       projectDesc: "I enhanced the application’s functionality by developing comprehensive background location tracking, ensuring accurate user positioning for improved engagement. I integrated Google Maps APIs to deliver precise location services, enriching the user experience with interactive mapping features. Additionally, I designed and implemented an interactive chef tutorial module with video streaming and a question-and-answer system, facilitating effective learning and participation. I also integrated secure payment gateways like Razorpay and PayU, while implementing localization in three languages to support a diverse user base and expand market reach.",
     },
     {
       image: require("./assets/images/truepower.png"),
       projectName: "TruePower - EV Charging",
       projectDesc: "I developed the TruePower app, a user-friendly solution designed to help users locate nearby EV charging stations and book charging sessions effortlessly. The app features a mobile number authentication flow and integrates Google Maps API for accurate location tracking. I implemented a seamless session booking system and a referral program to enhance user engagement. Additionally, I incorporated Firebase Cloud Messaging (FCM) for real-time notifications and performed extensive bug fixes to ensure optimal app performance and reliability.",
+    },
+    {
+      image: require("./assets/images/india_legal.png"),
+      projectName: "India Legal",
+      projectDesc: "I contributed to the development of the India Legal app as part of a team, implementing key features such as a voice calling feature using Flutter Calling UI Kit and Agora SDK, full app localization in multiple languages, bug fixing and performance optimization, and the integration of subscription plans. I followed the MVVM architecture and utilized BLoC state management to ensure efficient state handling and maintainability",
+    },
+    {
+      image: require("./assets/images/playstore.png"),
+      projectName: "TuTr",
+      projectDesc: "TuTr is a comprehensive tuition management system built with a Flutter frontend and a Golang backend, designed to streamline communication and academic activities between teachers and students. It features class-wise teacher-created groups where students can access study materials, manage notes, and receive important updates via a dedicated notice board. The app includes a structured “Doubt Chat” for students to post queries with text and file uploads, allowing teachers and group members to respond asynchronously. TuTr also supports attendance tracking, enabling teachers to efficiently monitor student participation. With OTP-based logins and subscription management, it offers a scalable, cross-platform solution for modern educational institutions",
     },
     {
       image: require("./assets/images/gita_icon.png"),
